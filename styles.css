@@ -1,0 +1,41 @@
+body {
+    font-family: sans-serif;
+  }
+  
+  .sidebar {
+    border-top: 1px solid #dadada;
+    border-right: 1px solid #dadada;
+    border-bottom: 1px solid #dadada;
+    border-radius: 0.2rem;
+    border-top-left-radius: 0rem;
+    border-bottom-left-radius: 0rem;
+    text-transform: uppercase;
+    margin: 1rem;
+    padding: 2rem 0rem 2rem 0rem;
+    width: 10rem;
+    height: 100%;
+  }
+  
+  #sb-heading {
+    color: blueviolet;
+    padding: 0rem 0.5rem 0rem 0.5rem;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  
+  .sb-item {
+    padding: 0.5rem;
+    margin-right: 4px;
+    font-weight: normal;
+    background-color: transparent;
+    cursor: pointer;
+    transition: font-weight, 0.3s background-color, cursor 0.3s;
+  }
+  
+  .sb-item:hover {
+    font-weight: 600;
+    background-color: #f0f0f0;
+    cursor: pointer;
+  }
+  
